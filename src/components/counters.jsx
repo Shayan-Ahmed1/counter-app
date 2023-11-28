@@ -2,6 +2,7 @@ import React from 'react'
 import Counter from './counter';
 
 const Counters = (props) => {
+    console.log('Counters - Rendered');
     return (
         <div>
             <button

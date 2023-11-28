@@ -1,6 +1,8 @@
 import React from 'react'
 
 const Navbar = ({ totalCounters }) => {
+    console.log('NavBar - Rendered');
+
     return (
         <nav className="navbar bg-body-tertiary bg-dark">
             <a className="navbar-brand" href="http://localhost:3000/">
